@@ -1,31 +1,34 @@
-# proxy
+# Proxy
 
 HTTP(S) Traffic Investigation
 
-# installation
+## Installation
 
-```sh
+```
 $ npm i [-g] https://github.com/ph3nx/proxy.git
 ```
 
-# usage
+## Usage
 
-## in JavaScript
+1. In JavaScript
 
 ```js
 var Proxy = require('proxy')
 ```
 
-## as command line program
+2. As command line program
 
-```sh
+```
 $ proxy [port]
 ```
 
 (default port is 8080)
 
-# test
+# Test
 
-```sh
+To run the test suite, first install the dependencies, then run npm test:
+
+```
+$ npm i
 $ npm t
 ``
