@@ -10,25 +10,25 @@ $ npm i [-g] https://github.com/ph3nx/proxy.git
 
 ## Usage
 
-1. In JavaScript
+a. As Node module
 
 ```js
 var Proxy = require('proxy')
 ```
 
-2. As command line program
+b. As command line program
 
 ```
 $ proxy [port]
 ```
 
-(default port is 8080)
+(requires that the module is installed globally, default port is 8080)
 
-# Test
+## Tests
 
 To run the test suite, first install the dependencies, then run npm test:
 
 ```
 $ npm i
 $ npm t
-``
+```
