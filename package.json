@@ -1,0 +1,19 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "HTTP(S) Traffic Investigation",
+  "main": "lib",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "ph3nx <pasi1995@gmail.com> (http://ph3nx.com)",
+  "private": "true",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ph3nx/proxy.git"
+  },
+  "bin": "bin/cli",
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
