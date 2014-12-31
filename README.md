@@ -5,7 +5,7 @@ HTTP(S) Traffic Investigation
 ## Installation
 
 ```
-$ npm i [-g] https://github.com/ph3nx/proxy.git
+$ npm i [-g] git+ssh://github.com/ph3nx/proxy.git
 ```
 
 ## Usage
@@ -14,6 +14,7 @@ a. As Node module
 
 ```js
 var Proxy = require('proxy')
+Proxy.listen()
 ```
 
 b. As command line program
