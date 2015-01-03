@@ -4,7 +4,7 @@
   "description": "HTTP(S) Traffic Investigation",
   "main": "lib",
   "scripts": {
-    "test": "multi='mocha-osx-reporter=- spec=-' mocha -wR mocha-multi --compilers coffee:coffee-script/register"
+    "test": "multi='mocha-osx-reporter=- spec=-' mocha -wR mocha-multi --compilers coffee:coffee-script/register -r should"
   },
   "author": "ph3nx <pasi1995@gmail.com> (http://ph3nx.com)",
   "private": "true",
