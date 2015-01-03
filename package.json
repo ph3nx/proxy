@@ -4,7 +4,7 @@
   "description": "HTTP(S) Traffic Investigation",
   "main": "lib",
   "scripts": {
-    "test": "mocha"
+    "test": "multi='mocha-osx-reporter=- spec=-' mocha -wR mocha-multi --compilers coffee:coffee-script/register"
   },
   "author": "ph3nx <pasi1995@gmail.com> (http://ph3nx.com)",
   "private": "true",
@@ -14,6 +14,11 @@
   },
   "bin": "bin/cli",
   "devDependencies": {
-    "mocha": "^2.1.0"
-  }
+    "coffee-script": "^1.8.0",
+    "mocha": "^2.1.0",
+    "mocha-multi": "^0.6.0",
+    "mocha-osx-reporter": "^0.1.2",
+    "should": "^4.4.2"
+  },
+  "engines": { "node": "0.10.35" }
 }
